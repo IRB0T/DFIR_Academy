@@ -1,0 +1,11 @@
+,,,,,
+,,,,,
+,Timestamp,Evidence,Log Captured,Interpretration,Source
+,2024-11-08 6:56:58,IR4N6 - Source Machine,Sending a connection request for address 1469150683 (direct),Connection request sent,ad.trace
+,2024-11-08 6:57:00,Superadmin - Destination Machine,"Incoming 2024-11-08, 06:57 User  1495608085 1495608085",Received Connection request,connection_trace.txt
+,2024-11-08 6:57:49,Superadmin - Destination Machine,Incoming session request: IR4N6 (1495608085),Received Connection request,ad.trace
+,2024-11-08 7:00:00,IR4N6 - Source Machine,"Clipboard		2024-11-08, 07:00	finish	download	'abc.txt' (~3 B out of 3 B)",File Transfer Activity,file_transfer_trace.txt
+,2024-11-08 7:01:00,IR4N6 - Source Machine,"Clipboard		2024-11-08, 07:01	finish	upload  	'xyz.txt' (~3 B out of 3 B)",File Transfer Activity,file_transfer_trace.txt
+,2024-11-08 7:03:00,IR4N6 - Source Machine,"File Manager	2024-11-08, 07:03	finish	download	'data.txt' (~16 B out of 16 B)",File Transfer Activity,file_transfer_trace.txt
+,2024-11-08 7:03:56,Superadmin - Destination Machine,app.prepare_task - Preparing files in 'C:\Users\superadmin\Desktop\winevt',Folder the files are being copied from,ad.trace
+,2024-11-08 7:03:56,Superadmin - Destination Machine,app.local_file_transfer - Preparation of 1 files completed (io_ok),Number of files copied,ad.trace
